@@ -7,13 +7,19 @@
 
 ## List of commands used:
 - To get the content from the URL and to put that content in a file.
+```
 curl "http://shakespeare.mit.edu/merchant/full.html" -o demo.txt
+```
 
 -T count the number of times the word is present in file ignoring the case
+```
 grep -i "LORENZO" demo.txt -c > spkone.txt
+```
 
 -T count the number of times the word is present in file ignoring the case
+```
 grep -i "BASSANIO" demo.txt -c > spktwo.txt
+```
 
 1. The speaker 1 is present 80 times
 1. The speaker 2 is present 122 times
