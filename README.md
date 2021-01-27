@@ -11,12 +11,12 @@
 curl "http://shakespeare.mit.edu/merchant/full.html" -o demo.txt
 ```
 
-- T count the number of times the word is present in file ignoring the case
+- To count the number of times the word is present in file ignoring the case
 ```
 grep -i "LORENZO" demo.txt -c > spkone.txt
 ```
 
-- T count the number of times the word is present in file ignoring the case
+- To count the number of times the word is present in file ignoring the case
 ```
 grep -i "BASSANIO" demo.txt -c > spktwo.txt
 ```
