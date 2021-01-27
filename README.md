@@ -21,7 +21,7 @@ grep -i "LORENZO" demo.txt -c > spkone.txt
 grep -i "BASSANIO" demo.txt -c > spktwo.txt
 ```
 
-### Answers:
+### Output:
 
 - The speaker 1 is present 80 times
 - The speaker 2 is present 122 times
